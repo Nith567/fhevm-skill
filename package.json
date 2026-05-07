@@ -1,0 +1,50 @@
+{
+    "name": "fhevm-skill",
+    "version": "1.0.0",
+    "description": "Production-ready AI agent skill for the Zama Protocol (FHEVM). Drop into Claude Code, Cursor, Windsurf, or OpenClaw and your agent gains full knowledge of confidential smart contract development: encrypted types, FHE operations, ACL, input proofs, user/public/oracle decryption, ERC-7984, Hardhat testing, frontend integration, security, and 15+ anti-patterns.",
+    "keywords": [
+        "zama",
+        "fhevm",
+        "fhe",
+        "fully-homomorphic-encryption",
+        "confidential-smart-contracts",
+        "erc-7984",
+        "claude-code",
+        "cursor",
+        "windsurf",
+        "ai-skill",
+        "agent-skill",
+        "solidity",
+        "ethereum",
+        "encrypted-erc20",
+        "private-voting",
+        "blind-auction",
+        "zama-protocol"
+    ],
+    "author": "Nith567",
+    "license": "MIT",
+    "homepage": "https://github.com/Nith567/fhevm-skill",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Nith567/fhevm-skill.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Nith567/fhevm-skill/issues"
+    },
+    "files": [
+        "SKILL.md",
+        "QUICKSTART.md",
+        "README.md",
+        "references/**/*"
+    ],
+    "main": "SKILL.md",
+    "scripts": {
+        "postinstall": "node -e \"console.log('\\n📚 fhevm-skill installed. Copy SKILL.md to your AI agent skills directory:\\n  Claude Code:  ~/.claude/skills/fhevm-skill/\\n  OpenClaw:     ~/.openclaw/workspace/skills/fhevm-skill/\\n  Cursor/Windsurf: reference SKILL.md from your project rules.\\n')\""
+    },
+    "engines": {
+        "node": ">=18"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
