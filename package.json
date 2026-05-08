@@ -1,6 +1,6 @@
 {
     "name": "fhevm-skill",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Production-ready AI agent skill for the Zama Protocol (FHEVM). Drop into Claude Code, Cursor, Windsurf, or OpenClaw and your agent gains full knowledge of confidential smart contract development: encrypted types, FHE operations, ACL, input proofs, user/public/oracle decryption, ERC-7984, Hardhat testing, frontend integration, security, and 15+ anti-patterns.",
     "keywords": [
         "zama",
