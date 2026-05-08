@@ -27,39 +27,9 @@ Drop this into your AI coding environment (Claude Code, Cursor, Windsurf, OpenCl
 ---
 
 ## Install
+
 ```bash
 npx -y skills add Nith567/fhevm-skill
-```
-
-### Claude Code
-
-```bash
-mkdir -p ~/.claude/skills/fhevm-skill
-cp -r fhevm-skill/* ~/.claude/skills/fhevm-skill/
-```
-
-Or grab from the live registry (if you've installed the XLayer Skills Arena):
-
-```bash
-curl -sL https://raw.githubusercontent.com/Nith567/xlayer-skills-arena/main/fhevm-skill/SKILL.md \
-    -o ~/.claude/skills/fhevm-skill/SKILL.md
-# (then pull references/ likewise)
-```
-
-### Cursor / Windsurf
-
-Copy the entire `fhevm-skill/` folder into your project and reference `SKILL.md` from your `.cursorrules` / Windsurf rules:
-
-```
-@fhevm-skill/SKILL.md
-```
-
-### OpenClaw
-
-```bash
-mkdir -p ~/.openclaw/workspace/skills/fhevm-skill
-cp -r fhevm-skill/* ~/.openclaw/workspace/skills/fhevm-skill/
-openclaw gateway restart
 ```
 
 ---
