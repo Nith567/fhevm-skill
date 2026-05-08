@@ -27,6 +27,9 @@ Drop this into your AI coding environment (Claude Code, Cursor, Windsurf, OpenCl
 ---
 
 ## Install
+```bash
+npx -y skills add Nith567/fhevm-skill
+```
 
 ### Claude Code
 
@@ -141,4 +144,3 @@ MIT.
 
 Built by **Nith567** for the Zama Season Bounty Track.
 
-🇯🇵 *Tokyo, here we come.*
